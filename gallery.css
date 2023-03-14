@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.main {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+    margin-top: -50px;
+}
+
+.navbar {
+    width: 95%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.logo {
+    color: #395B64;
+    font-size: 40px;
+    font-family: cursive;
+    float: left;
+    padding-top: .6%;
+    cursor: pointer;
+}
+
+.menu {
+    width: 600px;
+    float: left;
+    height: 10px;
+    margin-top: -150px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: .3s ease;
+    color: #00454A;
+    font-size: 25px;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #A4907C;
+}
+
+#wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headline {
+    text-align: center;
+    margin: 40px 0px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/01/08/34/camera-1298800_960_720.png');
+    margin-top: 200px;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #2C394B;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid;
+    display: inline-block;
+    color: #2C394B;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-left: -800px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731_960_720.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+img {
+    transition: 0.5s;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img {
+    width: 100%;
+}
